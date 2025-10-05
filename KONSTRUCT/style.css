@@ -1,0 +1,573 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    height: 3050px;
+}
+.fullscreen-img {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.fullscreen-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.main-content {
+    min-height: 2000px; 
+    background: #fff;
+}
+.logo {
+    position: absolute;
+    top: 45px;
+    left: 910px;
+    width: 200px;     
+       
+}
+.logo img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+.fullscreen-img {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ftext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff; 
+    text-align: center;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;   
+}
+.ftext h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-family: 'Bebas neue', sans-serif;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+.ftext p {
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.lastt {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    color: #fff; 
+    text-align: center;
+    transform: translateX(-50%); 
+    font-size: 15px; 
+    font-family: 'Bebas neue', sans-serif;
+    letter-spacing: 7px;
+}
+.shapka {
+    position: relative;
+    height: 80px;
+    width: 100%;
+}
+
+.logo-shapka {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-shapka img {
+    position: absolute;
+    left: 450px;
+    height: 20px;
+    width: auto;
+}
+
+.nav-links {
+    position: absolute;
+    right: 430px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 60px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #6d6d6d;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.story p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 5px;
+    color: #585858;
+    position: relative;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    
+}
+
+.story p::after {
+    content: "";
+    display: block;
+    margin: 0px auto 0 auto;
+    width: 50px;
+    height: 2px;
+    background: rgb(0, 162, 255);
+    border-radius: 4px;
+}
+.firstg {
+    padding-left: 480px;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    width: 400px;
+text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+.undersmith {
+    padding-left: 480px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+    color: #7a7a7a;
+    width: 350px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.maininfo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 40px;
+}
+.imgs img {
+    width: 160px;
+    height: 230px;
+}
+.capa{
+    display: flex;
+        text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14.5px;
+}
+.smalltext {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #48555B;
+    font-family: Bebas Neue, sans-serif;
+    padding-left: 510px;
+    padding-top: 100px;
+    font-weight: 100;
+    
+}
+.smalltext::after {
+    content: "";
+    display: block;
+    margin:  auto 0 auto;
+    width: 50px;
+    height: 2px;
+    background: rgb(0, 162, 255);
+    border-radius: 4px;
+}
+.ssmall{
+    padding-left: 150px;
+    padding-top: 100px;
+    font-weight: 100;
+    color: #48555B;
+    width: 420px;
+}
+.capa {
+    display: flex;
+    display: flex; 
+    gap: 30px;        
+}
+
+.capa button {
+    height: 40px;
+    background: rgb(64, 185, 255);
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 110px;
+    font-size: 17px;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    border: none;        
+    box-shadow: none;    
+    outline: none;      
+    cursor: pointer;
+    margin-top: 110px;
+    position: absolute;
+    left: 1300px;
+}
+.three {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center; 
+    
+}
+.manag {
+padding-left: 530px;
+}
+.fm{
+    width: 200px;
+    letter-spacing: 3.5px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    color: #585858;
+}
+.sm{
+    width: 210px;
+    letter-spacing: 1px;
+    color: #48555B;
+}
+
+.audi{
+    padding-left: 100px;
+
+}
+.fa{
+        width: 240px;
+    letter-spacing: 3.5px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    color: #585858;
+}
+
+.sa{
+       width: 210px;
+    letter-spacing: 1px;
+    color: #48555B;
+}
+.fact{
+    padding-left: 100px;
+}
+.ff{
+        width: 200px;
+    letter-spacing: 3.5px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    color: #585858;
+}
+.sf{
+           width: 210px;
+    letter-spacing: 1px;
+    color: #48555B;
+
+}
+.manag, .audi, .fact {
+    background: #fff;
+    border: 2px solid #e9e9e9;
+    box-sizing: border-box;
+    padding: 25px 20px 20px 20px;
+    margin-right: 30px;
+    box-shadow: none;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.manag:last-child,
+.audi:last-child,
+.fact:last-child {
+    margin-right: 0;
+}
+.manag img,
+.audi img,
+.fact img {
+    align-self: flex-start;    /* изображение в левом углу */
+    margin-bottom: 15px;
+    width: 60px;               /* при необходимости скорректируйте размер */
+    height: 60px;
+    object-fit: contain;
+}
+.imgee{
+    position: relative;
+}
+
+.imgee img{
+    width: 100%;
+    height: auto;
+}
+.fottext {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    width: 350px;
+    text-align: center;
+}
+ .fotbut {
+    position: absolute;
+    top: 340px;
+    left: 860PX;
+    display: block;
+    height: 40px;
+    background: rgb(64, 185, 255);
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 180px;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.down {
+    position: absolute;
+    top:  600px; 
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background: #141414;
+    margin: 0;
+    padding: 0;
+}
+.down {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 110px;
+    background: #141414;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;     
+    align-items: center;    
+    justify-content: center;  
+   
+}
+
+.down p {
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    margin: 0;
+    padding-right: 40px;
+}
+
+.down input[type="email"] {
+    width: 220px;
+    height: 32px;
+    border: none;
+    padding: 0 12px;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.down button {
+    height: 32px;
+    background: rgb(64, 185, 255);
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 110px;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+}
+.down-light {
+    position: absolute;
+    left: 0;
+    top: 700px; 
+    width: 100%;
+    height: 280px;
+    background: #0e141d;
+}
+
+.firstcol img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.firstcol{
+    width: 270px;
+    padding-left: 520px;
+    color: white;
+}
+.firstcol h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 80px; 
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.firstcol {
+    width: 270px;
+    color: white;
+    padding-left: 0;
+        color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.seccol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding-right: 0;
+    margin-left: 0;
+    text-transform: uppercase;
+}
+.seccol h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    color: white;
+}
+
+.seccol a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+.down-light h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    color: #fff;
+}
+.down-light {
+    position: absolute;
+    left: 0;
+    top: 700px; 
+    width: 100%;
+    height: 280px;
+    color: #fff;
+    
+}
+
+.fifthcol {
+    width: 200px;     color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+.seccol, .thirdcol, .fourthcol  {
+    font-size: small;
+    text-transform: uppercase;
+        color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.down-dark {
+    position: absolute;
+    left: 0;
+    top: 970px;
+    width: 100%;
+    height: 90px;
+    background: #141414;
+    z-index: 2;
+}
+.down-dark p {
+    color: white;
+display: flex;
+    align-items: center;
+    justify-content: center;
+        color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    padding-top: 18px;
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  position: absolute;
+  right: 430px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1001;
+}
+.burger span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin: 4px 0;
+  background: #6d6d6d;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+
+
+
