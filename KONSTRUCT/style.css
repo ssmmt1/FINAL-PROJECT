@@ -305,9 +305,9 @@ padding-left: 530px;
 .manag img,
 .audi img,
 .fact img {
-    align-self: flex-start;    /* изображение в левом углу */
+    align-self: flex-start; 
     margin-bottom: 15px;
-    width: 60px;               /* при необходимости скорректируйте размер */
+    width: 60px;             
     height: 60px;
     object-fit: contain;
 }
@@ -567,6 +567,7 @@ display: flex;
   border-radius: 2px;
   transition: 0.3s;
 }
+
 
 
 
